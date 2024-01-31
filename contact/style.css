@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 6px;
+    border: 1px solid #333;
+    width: 416px;
+    color: white;
+}
+
+label {
+    margin-top: 8px;
+    display: block;
+}
+
+input,
+select {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 400px;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'] {
+    height: 20px;
+    color: grey;
+}
+
+input[type='submit'] {
+    margin-left: 2px;
+    border: none;
+    height: 40px;
+    color: black;
+    font-size: 1.5em;
+    border: 1px solid #333;
+}
